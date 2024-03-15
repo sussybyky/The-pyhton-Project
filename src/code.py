@@ -25,4 +25,7 @@ py.sys.out(b)
 # Following are other System Fuctions
 
 py.fc.forif(1 == 1, py.sys.out("1 is 1"))
-py.fc.loop()  # The Loop functions is still in progress
+# py.fc.loop()  # The Loop functions is still in progress
+py.fc.run("x = input('Input: ') \nprint(x)")
+
+

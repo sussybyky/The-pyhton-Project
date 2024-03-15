@@ -42,17 +42,23 @@ class Methods:
 
         def loop(self, bed: str, cd: str):
             """loop(self, bed, cd) checks if bed is True if so it executes the cd
-            Someting wong IDK"""
+            Something is wrong IDK"""
             try:
                 while bed:
                     exec(cd)
             except Exception as e:
                 print(e)
 
+        def run(self, code):
+            """run(self, code) executes the code and returns the result of the code"""
+            return exec(code)
+
+
+
+
+
 
 py = Methods()
 py.sys = Methods.System()
 py.fc = Methods.Func()
 t = Methods.Types()
-
-
